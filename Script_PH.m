@@ -4,7 +4,7 @@ clear; clc; clear sound;
 load('FenderJunior_PH_interp_model_M3.mat','model');
 
 %% 2) Vstupní signál
-[x, fs] = audioread('Guitar LOOPBACK.wav');
+[x, fs] = audioread('Sweep -19dBFS.wav');
 x = x * 1;
 
 if size(x,2) > 1
