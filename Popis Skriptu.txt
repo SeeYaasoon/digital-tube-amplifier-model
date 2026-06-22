@@ -1,0 +1,12 @@
+Popis MATLAB Scriptů:
+
+1)build.m- Načte sady Hammersteinových jader změřených
+pro různé úrovně ESS signálu ,
+z těchto dat spočítá interpolační funkce (závislost |H_m(f_ref)| na
+úrovni) a uloží výsledný model do souboru FenderJunior_PH_interp_model.mat.
+
+2)Script_PH.m-načte vstupní signál a aplikuje PH model, vystup uloží do souboru WAV.Ke spuštění je vyžadován soubor FenderJunior_PH_interp_model.mat . Uživatel může zvolit jeden ze dvou přístupů zpracování: ph_process_interp nebo time_varying_ph_process. 
+
+3)plot_amp_model.m-Slouží pro výkres a porovnaní reálné změřené odezvy zesilovače a odezvy PH modelu , lineárně zesiluje signál při odlišnosti zesílení výstupu modelu a reálného výstupu zesilovače pro jejich vzájemné porovnání 
+
+     
