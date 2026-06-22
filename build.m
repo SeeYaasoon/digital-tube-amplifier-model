@@ -1,7 +1,7 @@
 clear; clc;
 
 %% Při jakych úrovních bylo změřeno
-levelsDb = -19:-1:-40;   % -15, -16, ..., -40 dBFS
+levelsDb = -19:-1:-20;   % -15, -16, ..., -40 dBFS
 
 kernelFiles = cell(1, numel(levelsDb));
 for i = 1:numel(levelsDb)
