@@ -1,7 +1,7 @@
 clear; clc; clear sound;
 
 %% 1) Model
-load('FenderJunior_PH_interp_model_M6_10kernels.mat','model');
+load('FenderJunior_PH_interp_model_M3.mat','model');
 
 %% 2) Vstupní signál
 [x, fs] = audioread('Guitar LOOPBACK.wav');
