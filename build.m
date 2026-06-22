@@ -19,7 +19,7 @@ model = build_ph_level_model(levelsDb, kernelFiles, fRefHz, fs_meas);
 model = calibrate_ph_gain_vs_level_multi(model, levelsDb, OSF);
 
 %% 3) Uloženi 
-save('FenderJunior_PH_interp_model_M3_10kernels more.mat', 'model');
+save('FenderJunior_PH_interp_model_M3.mat', 'model');
 
 
 
